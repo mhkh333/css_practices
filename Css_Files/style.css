@@ -1,0 +1,204 @@
+/* body p:nth-child(1){
+    width: 500px;
+    height: 200px;
+    background-color: rebeccapurple;
+}
+
+body p:nth-child(2){
+    width: 1000px;
+    height: 100px;
+    background-color: green;
+} */
+
+/*     
+.pfirst{
+    width: 300px;
+    height: 333px;
+    background-color: honeydew;
+}
+
+.psecond{
+    width: 1000px;
+    height: 100px;
+    background-color: royalblue;
+}
+
+.h{
+    width: 300px;
+    height: 125px;
+    background-color: violet;
+} */
+
+/*
+/* p ii ke class paragraph darad//
+p.paragraph{
+    width: 1000px;
+    height: 200px;
+    background-color: gray;
+}
+
+section.paragraph{
+    width: 500px;
+    height: auto;
+    background-color: teal;
+}*/
+
+/*
+
+    child , parents
+    p span b
+    <p>
+        <span> -> span child p
+            <b></b> -> b child of span then child of p
+        </span> b<span<p 
+    </p>
+
+*/
+
+/* p.pfirst{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(32, 97, 218);
+}
+
+p.pfirst>span{
+    background-color: pink;
+}
+
+p.pfirst>span > b{
+    background-color: green;
+}
+
+section.para{
+    width: 100%;
+    height: auto;
+    background-color: springgreen;
+}
+
+section.para>p>span{
+    background-color: ghostwhite;
+} */
+
+/* section.first {
+    width: 100%;
+    height: auto;
+    background-color: salmon;
+}
+
+section.first>p{
+    background-color: rebeccapurple;
+}
+
+section.first>section>p{
+    background-color: maroon;
+} */
+
+
+/* [data-first="first"]{
+    width: 500px;
+    height: auto;
+    background-color: lightblue;
+}
+
+[data-second]{
+    width: 300px;
+    background-color: yellow;
+} */
+
+ 
+/* 
+    define variable for project
+*/
+
+/* :root{
+    --widthCompelete:100%;
+    --widthHalf:50%;
+    --heightCompelete:200vh;
+    --bg_green:lightgreen;
+}
+
+section.first{
+    width: var(--widthCompelete);
+    height: var(--heightCompelete) ;
+    background-color: var(--bg_green);
+} */
+
+/* p.first{
+
+    font-size: 20px;
+    color: #12225C;
+}
+
+h1.hfirst{
+
+    color: green;
+} */
+
+/* body{
+    min-height: 2000px;
+
+}
+
+section.paralax{
+    width: 100%;
+    height: 1000px;
+
+
+    background-color: yellowgreen;
+    background-image: url('../images/Games\ HD\ Wallpapers_Downloadha\ \(15\).jpg');
+    background-repeat: no-repeat;
+    background-position:  center top;
+    background-attachment: fixed;
+    background-size: cover;
+
+    background: url('../images/Games\ HD\ Wallpapers_Downloadha\ \(15\).jpg') no-repeat center top fixed;
+    background-size: cover;
+    
+}
+
+section.test{
+    width: 100%;
+    height: 500px;
+
+}
+
+section.newPara{
+    width: 100%;
+    height: 1000px;
+
+
+    background: url('../images/Games\ HD\ Wallpapers_Downloadha\ \(15\).jpg') no-repeat center top fixed;
+
+    background-size: cover;
+} */
+
+/* h1.hfirst{
+    background-color: violet;
+
+} */
+
+section.first{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+
+    border-top-width: 5px  ;
+    border-right-width: 10px;
+    border-left-width: 2px;
+    border-block-width: 10px;
+
+    border-top-style: solid;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+
+    border-top-color: teal;
+    border-bottom-color: thistle;
+
+
+    border: 4px inset rgb(0, 0, 0);
+
+    border-radius: 50%;
+
+
+}
