@@ -41,10 +41,162 @@ section h1,h2,h3,p{
 
 } */
 
-section.first{
+/* section.first{
     width: 400px;
     height: 200px;
     background-color: gray;
     margin: 0 auto;
     overflow: auto;
+} */
+
+/* section.parent{
+    width: 500px;
+    height: 300px;
+
+    background-color: brown;
+    margin: 100px auto;
+    position: relative;
+
+}
+
+section.parent>section.child{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+} */
+
+/* section.parent{
+    width: 500px;
+    height: 300px;
+    background-color: brown;
+    
+    margin: 100% auto;
+    position: relative;
+  
+
+}
+
+section.parent>section.child{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 25px);
+    background-color: green;
+    top: calc(50% - 25px);
+} */
+
+
+
+/* body{
+    min-height: 2500px;
+}
+
+section.first{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+} */
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+/* section.parent{
+    width: 300px;
+    height: 300px;
+    background-color: royalblue;
+    position: relative;
+    left: calc(50% - 150px);
+    top: 150px;
+    overflow: hidden;
+
+}
+
+section.parent>section.left{
+    width: inherit;
+    height: inherit;
+    background-color: greenyellow;
+
+    position: absolute;
+    left : -300px;
+
+    transition: all 0.3s linear;
+
+}
+
+section.parent:hover>section.left{
+    left: 0;
+} */
+
+section.social{
+    width: 300px;
+    height: 400px;
+    background-color: burlywood;
+    position: relative;
+    left: calc(50% - 300px/2);
+    top: 100px;
+
+    overflow: hidden;
+}
+
+section.social>section.twitter{
+    width: 75px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    background-color: blue;
+    transition: all 0.3s linear;
+
+
+}
+
+section.social>section.instagram{
+    width: 75px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 150px;
+    background-color: rebeccapurple;
+    transition: all 0.3s linear;
+
+
+}
+section.social>section.telegram{
+    width: 75px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 75px;
+    background-color: aqua;
+    transition: all 0.3s linear;
+
+
+}
+section.social>section.facebook{
+    width: 75px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 225px;
+    background-color: red;
+    transition: all 0.3s linear;
+
+}
+section.social:hover>section.facebook{
+    bottom: 0;
+}
+section.social:hover>section.telegram{
+    bottom: 0;
+}
+section.social:hover>section.instagram{
+    bottom: 0;
+}
+section.social:hover>section.twitter{
+    bottom: 0;
 }
