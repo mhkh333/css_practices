@@ -1,0 +1,22 @@
+
+/*1200 px to unlimited xl -> xlarge*/
+
+/* media Query for size x large*/
+@import 'media_sizexl.css';
+/* end media Query for size x large*/
+
+/*  media Query for size large*/
+@import 'media_sizeL.css';
+/* end media Query for size large*/
+
+/*  media Query for size medium*/
+@import 'media_sizeMedium.css';
+/* end media Query for size medium*/
+
+/*  media Query for size small*/
+@import 'media_sizeSmall.css';
+/* end media Query for size small*/
+
+/*  media Query for size xSmall*/
+@import 'media_sizeXSmall.css';
+/* end media Query for size xSmall*/

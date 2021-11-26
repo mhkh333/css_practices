@@ -1,0 +1,362 @@
+@media(min-width: 760px) and (max-width: 990px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /*    css wrapper*/
+    main.wrapper{
+        width: 100%;
+        height: 100px;
+        background-color: blueviolet;
+    }
+    /*    end css wrapper*/
+    /*    make a menu*/
+    section.menu{
+        width: 100%;
+        height: 50px;
+        background-color: lightblue;
+    }
+    section.menu>nav{
+        width: inherit;
+        height: inherit;
+    }
+    section.menu>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    section.menu>nav>ul>li{
+        float: right;
+        width: auto;
+        height: inherit;
+        padding: 10px;
+        box-sizing: border-box;
+        /*background-color: darkred;*/
+    }
+
+    section.menu>nav>ul>li>a{
+        display: block;
+        width: inherit;
+        height: auto;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 30px;
+        transition: all 0.3s ease;
+        color: lightcoral;
+        font-family: "B Nazanin", serif;
+    }
+    section.menu>nav>ul>li>a:hover{
+        background-color: pink;
+    }
+    section.menu>nav>ul>li:hover a{
+        color: whitesmoke;
+    }
+    /*    end make a menu*/
+    /*    making parallax*/
+    section.parallax{
+        width: 100%;
+        height: 600px;
+        background: url("../images/Games HD Wallpapers_Downloadha (7).jpg") center center no-repeat fixed;
+        background-size: cover;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    section.parallax>section.slogan{
+        width: 500px;
+        height: auto;
+        padding: 30px;
+        box-sizing: border-box;
+        margin: 50px auto;
+        background-color: rgba(0,0,0,0.5);
+        /*opacity : 0.5;*/
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px lightgray;
+    }
+
+    section.parallax>section.slogan>h1{
+        text-align: center;
+        font-family: "B Nazanin", serif;
+        margin-bottom: 10px;
+        color: whitesmoke;
+    }
+    section.parallax>section.slogan>p{
+        text-align: justify;
+        font-family: "B Nazanin", serif;
+        font-size: 14px;
+        color: lightgray;
+        line-height: 25px;
+    }
+    /*   end making parallax*/
+    /*    making post*/
+    section.post{
+        width: 100%;
+        /*height: 30px;*/
+        padding: 40px;
+        /*background-color: greenyellow;*/
+        box-sizing: border-box;
+    }
+
+    section.post>section.item{
+        width: 45%;
+        float: right;
+        margin-right: 10px;
+        border: 2px solid lightgray;
+        padding: 10px;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+        margin: 20px;
+    }
+    section.post>section.item>section.image{
+        width: 100%;
+        height: inherit;
+    }
+
+    section.post>section.item>section.image>img{
+        width: inherit;
+        height: 300px;
+    }
+
+    section.post>section.item>section.content{
+        width: 100%;
+        padding-top: 10px;
+        box-sizing: border-box;
+        direction: rtl;
+    }
+    section.post>section.item>section.content>h1{
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    section.post>section.item>section.content>p{
+        text-align: justify;
+        font-family: "B Nazanin", serif;
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+    section.post>section.item>section.content>a{
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        background-color: green;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        border-radius: 5px;
+        border: 1px inset lightgray;
+    }
+    section.post>section.item>section.content>a:hover{
+        background-color: #0b5774;
+
+    }
+
+
+    /*    end making post*/
+    .clearfix{
+        clear: both;
+    }
+    /*     making ABOUT*/
+    section.about{
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+        background: url("../images/Games HD Wallpapers_Downloadha (23).jpg");
+        background-size: cover;
+    }
+
+    section.about>section.aboutContent{
+        width: 80%;
+        margin: 0 auto;
+        background-color: whitesmoke;
+        padding: 30px;
+        box-sizing: border-box;
+        direction: rtl;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    section.about>section.aboutContent>h1{
+        font-size: 28px;
+        color: whitesmoke;
+        margin-bottom: 20px;
+    }
+
+    section.about>section.aboutContent>p{
+        font-size: 14px;
+        color: whitesmoke;
+        line-height: 25px;
+    }
+
+    /*    end making ABOUT*/
+
+    /*     making Gallery*/
+    section.gallery {
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.gallery > section.itemGallery {
+        float: right;
+        width: 45%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    section.gallery > section.itemGallery > section:nth-child(1) {
+        width: 100%;
+    }
+
+    section.gallery > section.itemGallery > section:nth-child(1) > img {
+        width: 100%;
+        height: 300px;
+    }
+
+    section.gallery > section.itemGallery > section:nth-child(2) {
+        width: 100%;
+        height: 300px;
+        background-color: rgba(0,0,0,0.6);
+        direction: ltr;
+        padding: 30px;
+        box-sizing: border-box;
+        position: absolute;
+        right: -100%;
+        top: 0;
+        transition: all 0.3s linear;
+    }
+
+    section.gallery > section.itemGallery > section:nth-child(2) > p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+        color: whitesmoke;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    section.gallery > section.itemGallery:hover>section:nth-child(2){
+        right: 0;
+    }
+
+    section.gallery > section.itemGallery > section:nth-child(2) > a{
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        background-color: green;
+        text-align: center;
+        color: whitesmoke;
+        text-decoration: none;
+        margin-right: 20px;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+    }
+
+    /*    end making Gallery*/
+    /*     making Form*/
+    section.contact {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+
+    section.contact > form {
+        width: 70%;
+        margin: 0 auto;
+        background-color: #0b5774;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    section.contact > form > input[type="text"] {
+        display: block;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-bottom: 2px inset lightgray;
+    }
+
+    section.contact > form > input[type="email"] {
+        display: block;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        /*border: 1px inset lightgray;*/
+        border-radius: 5px;
+        border-bottom: 2px inset lightgray;
+    }
+
+    section.contact > form > input[type="email"]::placeholder {
+        text-align: center;
+        font-weight: bold;
+        outline: none;
+    }
+
+    section.contact > form > input[type="text"]::placeholder {
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    section.contact>form>textarea{
+        resize: none;
+        width: 100%;
+        height: 150px;
+        border: none;
+        border-bottom: 2px solid black;
+        margin-bottom: 10px;
+    }
+
+    section.contact>form>textarea::placeholder{
+        text-align: center;
+        color: black;
+    }
+
+    section.contact>form>input[type="submit"]{
+        width: 100%;
+        display: block;
+        height: 40px;
+        color: whitesmoke;
+        background-color: green;
+        line-height: 40px;
+    }
+
+    /*    end making Form*/
+
+    /*     making Footer*/
+    footer{
+        width: 100%;
+        padding: 40px;
+        box-sizing: border-box;
+        background-color: saddlebrown;
+        float: right;
+    }
+
+    footer>section.item{
+        width: 45%;
+        float: right;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-right: 20px;
+        height: 200px;
+        background-color: rgba(0,0,0,0.4);
+        margin-bottom: 10px;
+    }
+
+    /*    end making Footer*/
+
+
+}
