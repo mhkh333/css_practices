@@ -1,0 +1,307 @@
+@media(min-width: 560px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*    Wrapper */
+    main.wrapper{
+        width: 100%;
+
+    }
+    /*    end wrapper*/
+    /*    making menu*/
+    section.menu{
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: #0b5774;
+        display: flex;
+        flex-direction: column;
+        /*justify-content: ;*/
+        /*align-items: center;*/
+    }
+    section.menu>nav{
+
+    }
+    section.menu>h1{
+        font-family: "Comic Sans MS", serif;
+        font-size: 28px;
+        color: orangered;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    section.menu>nav>ul{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        /*align-items: center;*/
+
+    }
+    section.menu>nav>ul>li{
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    section.menu>nav>ul>li>a{
+        font-family: "B Nazanin", serif;
+        text-decoration: none;
+        display: block;
+        width: inherit;
+        height: inherit;
+        color: whitesmoke;
+    }
+
+    section.menu>nav>ul>li:hover{
+        background: orangered;
+    }
+
+    /*    end making menu*/
+    /*     making parallax*/
+    section.parallax{
+        width: 100%;
+        height: 550px;
+        background: url("../../images/Games HD Wallpapers_Downloadha (23).jpg") center center no-repeat fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section.parallax>section.slogan{
+        width: 65%;
+        padding: 30px;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 5px;
+        direction: rtl;
+    }
+
+    section.parallax>section.slogan>h1{
+        font-family: "B Nazanin", serif;
+        margin-bottom: 10px;
+        color: whitesmoke;
+    }
+    section.parallax>section.slogan>p{
+        font-family: "B Nazanin", serif;
+        margin-bottom: 10px;
+        color: lightgray;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+    /*    end making parallax*/
+    /*    making about*/
+    section.about{
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #eca5a5;
+    }
+    section.about>section:nth-child(1),section.about>section:nth-child(2){
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    section.about>section:nth-child(1)>img{
+        width: 100%;
+        height: 300px;
+    }
+    section.about>section:nth-child(2)>h1{
+        text-align: right;
+        font-family: "B Nazanin", serif;
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: whitesmoke;
+    }
+    section.about>section:nth-child(2)>ul{
+        list-style: none;
+        direction: rtl;
+
+    }
+    section.about>section:nth-child(2)>ul>li{
+        margin-bottom: 10px;
+        font-family: "B Nazanin", serif;
+        font-size: 12px;
+        color: whitesmoke;
+    }
+
+    /*    end making about*/
+    /*    making contact us*/
+    section.contact {
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+
+    }
+
+    section.contact > form {
+        width: 80%;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.contact > form > input[type=text] {
+        height: 40px;
+        margin-bottom: 10px;
+        border: 2px inset lightgray;
+        direction: rtl;
+        padding-right: 10px;
+    }
+
+    section.contact > form > input[type=text]::placeholder {
+        font-family: "B Nazanin", serif;
+    }
+
+    section.contact > form > input[type=submit] {
+        height: 40px;
+        border: 2px inset lightgray;
+        background-color: green;
+    }
+
+
+    section.contact > form > textarea {
+        height: 150px;
+        resize: none;
+        margin-bottom: 10px;
+        border: 2px inset lightgray;
+        direction: rtl;
+        padding-right: 10px;
+    }
+
+    section.contact > form > textarea::placeholder {
+        font-family: "B Nazanin", serif;
+    }
+
+    /*    end making contact us*/
+    /*    making product*/
+    section.product {
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        background-color: #ff6600;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap; /* by defualt no wrap*/
+    }
+
+    section.product > section.itemproduct {
+        width: 100%;
+        margin-bottom: 10px;
+        direction: rtl;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.product > section.itemproduct > img {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        order: 2;
+    }
+
+    section.product > section.itemproduct > h1 {
+        font-size: 20px;
+        color: lightgray;
+        margin-bottom: 10px;
+        font-family: "B Nazanin", serif;
+        order: 1;
+    }
+
+    section.product > section.itemproduct > p {
+        font-size: 12px;
+        color: lightgray;
+        margin-bottom: 10px;
+        font-family: "B Nazanin", serif;
+        text-align: justify;
+        order: 3;
+    }
+
+    section.product > section.itemproduct > a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        font-family: "B Nazanin", serif;
+        font-size: 14px;
+        text-decoration: none;
+        text-align: center;
+        background-color: #00FF00;
+        color: black;
+        order: 4;
+    }
+
+    /*    end making product*/
+
+    /*    making team*/
+    section.team{
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    section.team > section.teamItem{
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.team > section.teamItem > img{
+        width: 100%;
+        height: 333px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        order: 1;
+    }
+    section.team > section.teamItem > h1{
+        order: 2;
+        font-family: "B Nazanin", serif;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    section.team > section.teamItem > p{
+        font-family: "B Nazanin", serif;
+        font-size: 14px;
+        text-align: center;
+        order: 3;
+    }
+
+    /*    end making team*/
+    /*    making footer */
+    footer.footer {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #0b5774;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer.footer > section.itemFooter {
+        width: 90%;
+        padding: 40px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*    end making footer */
+
+
+}
